@@ -27,6 +27,14 @@ export default function LoginForm() {
           Please log in to continue.
         </h1>
         <div className="w-full">
+          <div className="p-3 bg-yellow-50 border-yellow-500 border rounded-md text-xs text-yellow-700">
+            <p>
+              Username: <strong>user@nextmail.com</strong>
+            </p>
+            <p>
+              Password: <strong>123456</strong>
+            </p>
+          </div>
           <div>
             <label
               className="mb-3 mt-5 block text-xs font-medium text-gray-900"
